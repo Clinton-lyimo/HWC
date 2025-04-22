@@ -140,7 +140,8 @@ def update_map(selected_year):
     HeatMap(heat_data, radius=15, blur=12, min_opacity=0.5).add_to(m)
 
     # Save interactive heatmap as HTML
-    output_file = os.path.join(data_dir, "conflict_heatmap.html")
+    # output_file = os.path.join(data_dir, "conflict_heatmap.html")
+    output_file = "conflict_heatmap.html";
     m.save(output_file)
 
     return open(output_file, 'r').read()
