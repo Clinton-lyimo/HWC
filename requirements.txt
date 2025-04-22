@@ -7,3 +7,4 @@ esda~=2.5.1
 dash~=2.14.2
 folium~=0.14.0
 plotly~=6.0.1
+matplotlib
